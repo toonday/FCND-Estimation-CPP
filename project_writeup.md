@@ -54,7 +54,7 @@ This was quite straight forward.
 I needed to pass the current state and the derivative of the measurement model matrix hPrime (which was almost an identity matrix, oh well ...) to the update function which performs the update step of the EKF estimator.
 
 
-# Others
+#### Others
 Finally, I copied over my controller from the previous project and had to de-tune some values of the controller to enable the drone to fly using a reference path.
 However, the drone looked like it was flying drunk (although I passed the simulation test).
 This last 2 projects actually showed me the huge amount of parameter tuning that goes into developing intelligent vehicle systems. It would be really helpful if this parameters could be auto-tuned by some smart algorithm(s), etc.
